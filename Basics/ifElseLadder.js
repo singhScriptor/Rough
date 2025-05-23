@@ -19,3 +19,25 @@ function printCost(distance){
 }
 let distance=700
 printCost(distance) // 10
+
+
+
+
+function distanceCost(dist){
+    if(dist <=100){
+        return 5
+    }
+    else if(dist > 100 && dist <= 500){
+        return 8
+    }
+    else if(dist > 500 && dist < 1000){
+        return 10
+    }
+    else if(dist >= 1000){
+        return 12
+    }
+    else{
+        return "Invalid distance"
+    }
+}
+console.log(distanceCost(700)) // 10
