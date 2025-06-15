@@ -7,3 +7,5 @@ function powerOfNumber(base,expo){
 }
 let a=5,b=4
 console.log(powerOfNumber(a,b))
+
+
